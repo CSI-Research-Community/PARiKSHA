@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/ChiragSaxena5437/PARiKSHA">
+  <a href="https://github.com/CSI-Research-Community/PARiKSHA">
     <img src="assets/images/logo.png" alt="Logo" width="130" height="130">
   </a>
 
@@ -10,11 +10,11 @@
     One Stop Solution for all your online exam needs
     <br />
     <br />
-    <a href="https://github.com/ChiragSaxena5437/PARiKSHA">View Demo</a>
+    <a href="https://github.com/CSI-Research-Community/PARiKSHA">View Demo</a>
     ·
-    <a href="https://github.com/ChiragSaxena5437/PARiKSHA/issues">Report Bug</a>
+    <a href="https://github.com/CSI-Research-Community/PARiKSHA/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ChiragSaxena5437/PARiKSHA/issues">Request Feature</a>
+    <a href="https://github.com/CSI-Research-Community/PARiKSHA/issues">Request Feature</a>
   </p>
 </p>
 
