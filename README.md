@@ -87,7 +87,7 @@ python run.py
 
 ## Roadmap
 
-See the [open issues](https://github.com/ChiragSaxena5437/PARiKSHA/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/CSI-Research-Community/PARiKSHA/issues) for a list of proposed features (and known issues).
 
 
 
