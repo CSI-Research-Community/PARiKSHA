@@ -83,6 +83,10 @@ From the repo folder run the following command
 python run.py
 ```
 
+The website can be accessed by navigating to localhost:5000 from your favorite browser using the following link
+```sh
+http://localhost:5000/
+```
 
 
 ## Roadmap
