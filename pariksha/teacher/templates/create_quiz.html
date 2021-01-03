@@ -1,5 +1,4 @@
-{% extends "layout.html" %}
-{% block content%}
+{% extends "layout.html" %} {% block content%}
 
 <head>
 
@@ -13,7 +12,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $("#myModal").modal('show');
         });
     </script>
@@ -29,44 +28,37 @@
             <div class="modal-body">
                 <li>Enter the correct answer in the first text area option</li>
                 <li>The options would be shuffled for all the students</li>
-    
+
             </div>
         </div>
     </div>
 </div>
 <style>
     .zoom {
-
         transition: transform .2s;
-
     }
-
+    
     .zoom:hover {
         transform: scale(1.2);
-
     }
-
+    
     .button2:hover {
         box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     }
-
+    
     .po:hover {
         transition: transform .2s;
     }
-
+    
     .po:hover {
         background-color: cyan;
     }
-
-
-
-
-
+    
     .btn-file {
         position: relative;
         overflow: hidden;
     }
-
+    
     .btn-file input[type=file] {
         position: absolute;
         top: 0;
@@ -82,7 +74,7 @@
         cursor: inherit;
         display: block;
     }
-
+    
     #img-upload {
         width: 100%;
     }
@@ -118,8 +110,7 @@ padding:70px;">
 
             <div class="input-group mb-3">
                 <h4 style="margin-top:7px;">Quiz Title</h4>
-                <input type="text" class="form-control" name="title" id="Quiz_title" placeholder="Enter Quiz Title"
-                    aria-describedby="basic-addon3" required>
+                <input type="text" class="form-control" name="title" id="Quiz_title" placeholder="Enter Quiz Title" aria-describedby="basic-addon3" required>
             </div>
 
             <!--
@@ -163,9 +154,7 @@ padding:70px;">
         <div>
 
             <!-- <==========Start Cloning from here-->
-            <div class="container"
-                style="background-color:whitesmoke; color:black; padding:20px; border-radius:30px; margin-top:50px; padding:15px;"
-                id="form_instance1">
+            <div class="container" style="background-color:whitesmoke; color:black; padding:20px; border-radius:30px; margin-top:50px; padding:15px;" id="form_instance1">
                 <div style="padding: 10px;">
 
 
@@ -174,12 +163,12 @@ padding:70px;">
                         <div class="card-header" id="headingOne" style="color:#e43c5c;">
                             <h3 class="mb-0">
 
-                                
+
                                 Question
 
                             </h3>
                         </div>
-                        
+
 
 
                         <!--<textarea id="QuesIn" name="Question1" rows="3" cols="109"
@@ -187,8 +176,7 @@ padding:70px;">
                             placeholder="Enter Your Your Question Here" class='mt-2'></textarea>-->
 
 
-                        <input type="text" class="form-control" name="Question1" id="QuesIn"
-                            placeholder="Enter Question" aria-describedby="basic-addon3" required>
+                        <input type="text" class="form-control" name="Question1" id="QuesIn" placeholder="Enter Question" aria-describedby="basic-addon3" required>
 
                     </div>
 
@@ -221,9 +209,7 @@ padding:70px;">
                             <div class="col-sm-9">
                                 <div style="padding: 0px; margin-left:-50px; margin-top:10px;">
                                     <div class="input-group">
-                                        <input type="text" name="Option1A" class="form-control"
-                                            aria-label="Text input with radio button" id="OptionA"
-                                            placeholder="Enter Option value this must be correct" required>
+                                        <input type="text" name="Option1A" class="form-control" aria-label="Text input with radio button" id="OptionA" placeholder="Enter Option value this must be correct" required>
                                     </div>
                                 </div>
                             </div>
@@ -236,9 +222,7 @@ padding:70px;">
                                 <div style="padding: 0px; margin-left:-50px;">
                                     <div class="input-group">
 
-                                        <input type="text" name="Option1B" class="form-control"
-                                            aria-label="Text input with radio button" id="OptionB"
-                                            placeholder="Enter Option value" required>
+                                        <input type="text" name="Option1B" class="form-control" aria-label="Text input with radio button" id="OptionB" placeholder="Enter Option value" required>
                                     </div>
                                 </div>
                             </div>
@@ -251,9 +235,7 @@ padding:70px;">
                                 <div style="padding: 0px; margin-left:-50px;">
                                     <div class="input-group">
 
-                                        <input type="text" name="Option1C" class="form-control"
-                                            aria-label="Text input with radio button" id="OptionC"
-                                            placeholder="Enter Option value">
+                                        <input type="text" name="Option1C" class="form-control" aria-label="Text input with radio button" id="OptionC" placeholder="Enter Option value">
                                     </div>
                                 </div>
                             </div>
@@ -266,21 +248,16 @@ padding:70px;">
                                 <div style="padding: 0px; margin-left:-50px;">
                                     <div class="input-group">
 
-                                        <input type="text" name="Option1D" class="form-control"
-                                            aria-label="Text input with radio button" id="OptionD"
-                                            placeholder="Enter Option value" required>
+                                        <input type="text" name="Option1D" class="form-control" aria-label="Text input with radio button" id="OptionD" placeholder="Enter Option value" required>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="input-group-prepend" style="margin-left: 0px;">
                             <!--############################### V enter marks tag-->
-                            <span class="input-group-text" id="Enter_Marks-addon1"
-                                style="border-top-left-radius: 10px; border-bottom-left-radius:10px;">Enter marks
+                            <span class="input-group-text" id="Enter_Marks-addon1" style="border-top-left-radius: 10px; border-bottom-left-radius:10px;">Enter marks
                                 for question</span>
-                            <input type="number" min=1
-                                style="width: 50px; border-top-right-radius: 10px; border-bottom-right-radius:10px;"
-                                name="Marks1" id="Marks"  required />
+                            <input type="number" min=1 style="width: 50px; border-top-right-radius: 10px; border-bottom-right-radius:10px;" name="Marks1" id="Marks" required />
 
                         </div>
 
@@ -308,55 +285,23 @@ padding:70px;">
         <!-- <==== Clone till here-->
         <div class="row justify-content-center">
             <div class="example hoverable">
-                <input type="submit" value="Submit" class="btn btn-danger"
-                    style="width: 150px; margin-top:10px; background-color:#e43c5c; ">
+                <input type="submit" value="Submit" class="btn btn-danger" style="width: 150px; margin-top:10px; background-color:#e43c5c; ">
             </div>
         </div>
-    </form><!-- <======= Form tag end ========>-->
+    </form>
+    <!-- <======= Form tag end ========>-->
 </div>
 
 
 <<script>
 
-    $(document).ready(function () {
-    $(document).on('change', '.btn-file :file', function () {
-    var input = $(this),
-    label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
-    input.trigger('fileselect', [label]);
-    });
-
-    $('.btn-file :file').on('fileselect', function (event, label) {
-    
-    var input = $(this).parents('.input-group').find(':text'),
-    log = label;
-
-    if (input.length) {
-    input.val(log);
-    } else {
-    if (log) alert(log);
-    }
-
-    });
-    function readURL(input) {
-    if (input.files && input.files[0]) {
-    var reader = new FileReader();
-
-    reader.onload = function (e) {
-    $('#img-upload').attr('src', e.target.result);
-    }
-
-    reader.readAsDataURL(input.files[0]);
-    }
-    }
-
-    $("#imgInp").change(function () {
-    readURL(this);
-    });
-    });
+    $(document).ready(function () { $(document).on('change', '.btn-file :file', function () { var input = $(this), label = input.val().replace(/\\/g, '/').replace(/.*\//, ''); input.trigger('fileselect', [label]); }); $('.btn-file :file').on('fileselect',
+    function (event, label) { var input = $(this).parents('.input-group').find(':text'), log = label; if (input.length) { input.val(log); } else { if (log) alert(log); } }); function readURL(input) { if (input.files && input.files[0]) { var reader = new
+    FileReader(); reader.onload = function (e) { $('#img-upload').attr('src', e.target.result); } reader.readAsDataURL(input.files[0]); } } $("#imgInp").change(function () { readURL(this); }); });
     </script>
 
     <script>
-        $('#clone_btn').click(function () {
+        $('#clone_btn').click(function() {
             var $div = $('div[id^="form_instance"]:last');
             var num = parseInt($div.prop("id").match(/\d+/g), 10) + 1;
             var $clone = $div.clone().prop('id', 'form_instance' + num);
@@ -386,9 +331,7 @@ padding:70px;">
                 <div class="col-md-6">
                     <h5 class="title mb-3">PARiKSHA</h5>
                     <p>
-                        PARiKSHA is created with a motive of providing a unified platform to students and teachers
-                        so that
-                        the process of learning and its quality does not reduces in these tough times.
+                        PARiKSHA is created with a motive of providing a unified platform to students and teachers so that the process of learning and its quality does not reduces in these tough times.
 
                     </p>
                 </div>
@@ -400,8 +343,7 @@ padding:70px;">
 
                     <li><a href="#">Mail</a></li>
                     <p>pariksha.contact@gmail.com</p>
-                    <li><a
-                            href="https://www.linkedin.com/posts/pulkit-vyas_onlineexamination-onlineeducation-edtech-activity-6716777003296555008-MvzC">LinkedIn</a>
+                    <li><a href="https://www.linkedin.com/posts/pulkit-vyas_onlineexamination-onlineeducation-edtech-activity-6716777003296555008-MvzC">LinkedIn</a>
                     </li>
 
 
