@@ -3,7 +3,8 @@
 
 <head>
     <link rel="shortcut icon" href="../../../assets/images/logo.png" type="image/x-icon">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"
+        integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <title>Teacher</title>
 
@@ -42,7 +43,7 @@
         const people = document.getElementById('person');
         const hist = document.getElementById("his");
         var thresh = 0;
-        socket.on('connect', function() {
+        socket.on('connect', function () {
 
             socket.emit('admin', {
                 data: {
@@ -50,7 +51,7 @@
                 }
             })
 
-            socket.on('studentPrediction', function(data) {
+            socket.on('studentPrediction', function (data) {
                 mobile.innerText = data.data.data[0]
                 person.innerText = data.data.data[1]
 

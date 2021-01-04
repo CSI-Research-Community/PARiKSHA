@@ -1,8 +1,6 @@
-{% extends "layout.html" %}
-{% block content%}
+{% extends "layout.html" %} {% block content%}
 <style>
   .zoom {
-
     transition: transform .2s;
     /* Animation */
   }
@@ -45,13 +43,11 @@
       <h1>You Haven't Attempted Any Quiz Yet</h1>
     </div>
     <div class="d-flex justify-content-center">
-      <h3>Your marks will be shown once you complete a quiz...<h3>
+      <h3>Your marks will be shown once you complete a quiz...
+        <h3>
     </div>
   </div>
-  <hr style="width:100%;text-align:left;margin-left:0; width:10px;">
-  {% endif %}
-
-  {% for quiz in quiz_list %}
+  <hr style="width:100%;text-align:left;margin-left:0; width:10px;"> {% endif %} {% for quiz in quiz_list %}
 
 
   <div class="jumbotron" style="background-color:rgba(128, 128, 128, 0);">
@@ -89,7 +85,8 @@
         </div>
       </div>
       <hr style="width:100%;text-align:left;margin-left:0; width:10px;">
-    </div><!-- <==== end here-->
+    </div>
+    <!-- <==== end here-->
     {% endfor %}
   </div>
 </div>
@@ -127,7 +124,7 @@
       </div>
       <!--/.Second column-->
     </div>
-</div>
+  </div>
 
 </footer>
 
