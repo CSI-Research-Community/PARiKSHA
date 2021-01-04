@@ -1,22 +1,16 @@
-{% extends "layout.html" %}
-{% block content%}
+{% extends "layout.html" %} {% block content%}
 
 <head>
-
-
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <style>
     .zoom {
-
         transition: transform .2s;
-
     }
 
     .zoom:hover {
         transform: scale(1.2);
-
     }
 
     .button2:hover {
@@ -30,10 +24,6 @@
     .po:hover {
         background-color: cyan;
     }
-
-
-
-
 
     .btn-file {
         position: relative;
@@ -204,7 +194,8 @@
                     style="width: 150px; margin-top:-4px; background-color:#e43c5c; margin-left:40px;">
             </div>
         </div>
-</form><!-- <======= Form tag end ========>-->
+</form>
+<!-- <======= Form tag end ========>-->
 
 
 
@@ -214,7 +205,6 @@
 
 
 <script>
-
     $(document).ready(function () {
         $(document).on('change', '.btn-file :file', function () {
             var input = $(this),
@@ -234,6 +224,7 @@
             }
 
         });
+
         function readURL(input) {
             if (input.files && input.files[0]) {
                 var reader = new FileReader();
